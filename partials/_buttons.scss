@@ -1,8 +1,8 @@
 @import "./colours";
 
-@each $colour in $colour-buttons {
-  .button-#{$colour} {
-    background-color: $colour;
+@each $key, $value in $colour-buttons {
+  .button-#{$key} {
+    background-color: $value;
     padding: 20px 10px;
   }
 }
