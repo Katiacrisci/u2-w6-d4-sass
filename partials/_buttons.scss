@@ -1,0 +1,9 @@
+@import "./colours";
+
+@each $colour in $colour-buttons {
+  .button-#{$colour} {
+    background-color: $colour;
+    padding: 20px 10px;
+  }
+}
+
